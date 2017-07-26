@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.dmitriydubson.boot.scale'
+version = '0.1'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile gradleApi()
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
